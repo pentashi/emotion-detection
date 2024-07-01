@@ -1,14 +1,378 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c675fd24-89cf-40c2-a52d-8b6a8078087d" name="Changes" comment="" />
+    <list default="true" id="c675fd24-89cf-40c2-a52d-8b6a8078087d" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/emotion_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a05Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a05Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03a07Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b03Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b09Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b10Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/03b10Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08a01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08a01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08a02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08a05Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08a07Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08b01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08b02Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08b03Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08b09Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08b09Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/08b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a01Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a04Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a05Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a05Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a07Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09a07Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09b01Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09b02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09b02Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09b03Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09b09Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/09b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10a01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10a02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10a04Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10a04Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10a05Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10a07Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10b02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10b03Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10b09Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/10b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11a01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11a02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11a05Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11a07Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11b01Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11b02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11b03Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11b03Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11b09Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/11b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12a01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12a02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12a02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12a05Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12a07Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12b01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12b02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12b02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12b02Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12b09Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/12b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13a01Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13a02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13a05Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13a05Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13a07Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13b01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13b02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13b03Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13b09Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/13b10Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a04Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a05Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a05Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14a07Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b02Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b03Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b09Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b09Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/14b10Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15a01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15a02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15a02Wd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15a04Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15a04Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15a05Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b01Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b02Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b02Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b03Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b03Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b09Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/15b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a01Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a04Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a04Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a05Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a05Wc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16a07Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b01Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b01Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b02Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b03Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b09Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b10Wa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/angry/16b10Wb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03a01Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03a02Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03a04Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03a05Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03a07Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03a07Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/03b01Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08a01Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08a02Fe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08a04Ff.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08a05Fe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08a07Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08b01Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08b01Fe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08b02Ff.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08b03Fe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08b09Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/08b10Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/09a01Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/09a04Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/09b03Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/09b03Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/10a02Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/10a04Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/10b01Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/10b10Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11a02Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11a04Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11a05Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11a05Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11b01Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11b02Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11b03Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/11b09Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/12a01Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/12b02Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13a01Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13a02Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13a04Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13a07Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13b01Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13b02Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13b03Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13b09Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13b09Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/13b10Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14a02Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14a05Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14a05Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14a07Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14b01Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14b01Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14b02Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/14b09Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/15a01Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/15a04Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/15a05Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/15a07Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/15a07Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/15b09Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16a01Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16a04Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16a05Fc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16a07Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16a07Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16b01Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16b02Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16b03Fa.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16b03Fd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16b09Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/happy/16b10Fb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03a01Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03a02Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03a04Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03a05Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03a07Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03b01Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03b02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03b03Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03b09Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03b10Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/03b10Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08a01Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08a02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08a04Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08a05Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08a07Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08b01Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08b02Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08b03Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08b09Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/08b10Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09a01Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09a04Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09a05Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09a07Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09b01Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09b02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09b03Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09b09Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/09b10Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/10a01Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/10a02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/10a04Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/10b02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11a01Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11a02Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11a04Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11a05Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11b01Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11b02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11b03Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11b09Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/11b10Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/12a01Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/12a02Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/12a05Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/12b02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13a01Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13a02Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13a05Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13a07Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13b01Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13b02Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13b03Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13b09Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/13b10Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14a01Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14a02Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14a05Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14a07Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14b01Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14b02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/14b10Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15a01Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15a02Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15a04Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15a05Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15a07Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15b01Na.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15b02Nd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15b03Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15b09Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15b10Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/15b10Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/16a01Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/16a02Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/16a04Nc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/16a07Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/neutral/16b03Nb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03a02Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03a04Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03a05Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03b01Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03b02Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03b03Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/03b09Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08a02Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08a04Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08a05Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08a07Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08a07Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08b02Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08b03Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08b09Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/08b10Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/09a05Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/09a07Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/09b02Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/09b03Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/10a05Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/10a07Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/10b03Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11a02Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11a05Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11a07Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11b02Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11b03Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11b09Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/11b10Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/12a05Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/12b01Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/12b03Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/12b09Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/13a02Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/13a04Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/13a05Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/13a07Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/13b03Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14a02Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14a04Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14a04Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14a05Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14a05Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14a07Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14b02Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14b03Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14b09Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/14b10Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/15a02Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/15b02Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/15b03Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/15b09Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16a01Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16a02Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16a04Tc.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16a05Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16a07Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16b01Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16b03Ta.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16b10Tb.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sad/16b10Td.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/emotion_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/emotion-detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emotion-detection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -23,9 +387,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ACHAPI/PycharmProjects/emotion-detection/data/sad",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACHAPI\PycharmProjects\emotion-detection\data\sad" />
+      <recent name="C:\Users\ACHAPI\PycharmProjects\emotion-detection\data\neutral" />
+      <recent name="C:\Users\ACHAPI\PycharmProjects\emotion-detection\data\happy" />
+      <recent name="C:\Users\ACHAPI\PycharmProjects\emotion-detection\data\angry" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +416,19 @@
       <option name="presentableId" value="Default" />
       <updated>1719772308755</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1719773021331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719773021331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
